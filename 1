@@ -20,7 +20,7 @@ repeat
         obj.Text = 'active user: <font color="rgb(235, 157, 12)">' .. game.Players.LocalPlayer.Name .. '</font>'
     end
     if obj.Name:lower():find('buildlabel') then
-        obj.Text = 'build: <font color="rgb(235, 157, 12)">Paid</font>'
+        obj.Text = 'build: <font color="rgb(235, 157, 12)">Public</font>'
     end
  end
  
@@ -405,7 +405,7 @@ repeat
     ActiveUserLabel.Size = UDim2.new(0.00125635799, 200, 4.04341888, -1)
     ActiveUserLabel.FontFace = Font.fromId(12187362578, Enum.FontWeight.Regular)
     ActiveUserLabel.RichText = true
-    ActiveUserLabel.Text = "active user: <font color=\"rgb(235, 157, 12)\">Liftime</font>"
+    ActiveUserLabel.Text = "active user: <font color=\"rgb(235, 157, 12)\">7d</font>"
     ActiveUserLabel.TextColor3 = Color3.fromRGB(74, 74, 74)
     ActiveUserLabel.TextSize = 10
     ActiveUserLabel.TextXAlignment = Enum.TextXAlignment.Right
